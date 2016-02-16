@@ -2,6 +2,8 @@
 // Project: https://github.com/Hacker0x01/react-datepicker
 // Definitions by: Andrey Balokha <https://github.com/andrewBalekha>
 
+import React = require('react');
+
 interface DatePicker {
   className?: string;
   dateFormat?: string;
@@ -27,6 +29,6 @@ interface DatePicker {
 }
 
 declare module "react-datepicker" {
-  let DatePicker: __React.ClassicComponentClass<DatePicker>;
+  let DatePicker: React.ClassicComponentClass<DatePicker>;
   export = DatePicker;
 }

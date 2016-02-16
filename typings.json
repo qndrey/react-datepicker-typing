@@ -1,6 +1,6 @@
 {
   "name": "react-datepicker",
-  "main": "typigns/react-datepicker.d.ts",
+  "main": "react-datepicker.d.ts",
   "author": "Andrey Balokha <abalekha@gmail.com>",
   "description": "The TypeScript definition file for react-datepicker component",
   "ambientDependencies": {
